@@ -1,0 +1,212 @@
+/* ========================================> Reset CSS*/
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ========================================> Typography*/
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+/* ========================================> Custom variables */
+:root {
+    /* Primary colors */
+    --color-primary-red: hsl(0, 100%, 67%);
+    --color-primary-orange: hsl(39, 100%, 56%);
+    --color-primary-teal: hsl(166, 100%, 37%);
+    --color-primary-blue: hsl(234, 85%, 45%);
+
+    /* Primary transparent colors */
+    --color-primary-red-transparent: hsla(0, 100%, 67%, 0.1);
+    --color-primary-orange-transparent: hsla(39, 100%, 56%, 0.1);
+    --color-primary-teal-transparent: hsla(166, 100%, 37%, 0.1);
+    --color-primary-blue-transparent: hsla(234, 85%, 45%, 0.1);
+    
+    /* Gradient background colors */
+    --color-gradient-light-slate-blue: hsl(252, 100%, 67%);
+    --color-gradient-light-royal-blue: hsl(241, 81%, 54%);
+    
+    /* Gradient circle colors */
+    --color-gradient-violet-blue: hsl(256, 72%, 46%);
+    --color-gradient-persian-blue: hsla(241, 72%, 46%, 0);
+
+    /* Neutral colors */
+    --color-neutral-white: hsl(0, 0%, 100%);
+    --color-neutral-pale-blue: hsl(221, 100%, 96%);
+    --color-neutral-light-lavender: hsl(241, 100%, 89%);
+    --color-neutral-dark-gray-blue: hsl(224, 30%, 27%);
+    --color-neutral-gray : hsl(220, 2%, 72%);
+}
+
+/* ========================================> Global */
+body {
+    height: 100vh;
+    background-color: var(--color-neutral-white);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--color-neutral-white);
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--color-neutral-white);
+    text-align: center;
+    padding: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    color: var(--color-neutral-light-lavender);
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    width: 85%;
+    color: var();
+    ;
+}
+
+img {
+    padding: 10px;
+}
+
+
+/* ========================================> Component */
+.component {
+    position: relative;
+    width: 740px;
+    height: 515px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--color-neutral-pale-blue);
+    border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    display: flex;
+}
+
+.score-part, .summary-part {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    position: relative;
+}
+
+
+/* ========================================> Result Part */
+.score-part {
+    background: linear-gradient(180deg,
+        var(--color-gradient-light-slate-blue) 0%,
+        var(--color-gradient-light-royal-blue) 100%);
+    border-radius: 15px;
+}
+
+.score-part h3 {
+    text-align: center;
+}
+
+.circle-gradient {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(180deg,
+        hsl(256, 72%, 46%) 0%,
+        hsla(241, 68%, 61%, 0.459) 100%);
+    position: relative;
+    margin: 30px auto;
+    display: flex;    
+}
+
+.result {
+    justify-content: center;
+    align-items: center;
+
+}
+.on-hundred-light {
+    color: var(--color-neutral-light-lavender);
+    font-weight: 500;
+}
+
+/* ========================================> Sumamry Part */
+/* .summary-part {
+
+} */
+
+.summary-title {
+    margin-bottom: 25px;
+    color: var(--color-neutral-dark-gray-blue);
+}
+
+.group-info {
+    width: 100%;
+    height: 13%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.group-title {
+    width: 50%;
+}
+
+.score {
+    padding: 10px;
+}
+
+.weight{
+    color: var(--color-neutral-dark-gray-blue);
+    font-weight: 700;
+}
+
+.on-hundred {
+    color: var(--color-neutral-gray);
+    font-weight: 200;
+}
+
+.group-red {
+    background-color: var(--color-primary-red-transparent);
+}
+.red {
+    color: var(--color-primary-red);
+}
+
+.group-orange {
+    background-color: var(--color-primary-orange-transparent);
+}
+.orange {
+    color: var(--color-primary-orange);
+}
+
+.group-teal {
+    background-color: var(--color-primary-teal-transparent);
+}
+.teal {
+    color: var(--color-primary-teal);
+}
+
+.group-blue {
+    background-color: var(--color-primary-blue-transparent);
+}
+.blue {
+    color: var(--color-primary-blue);
+}
+
+button {
+    height: 55px;
+    width: 100%;
+    margin: 40px auto;
+    border-radius: 50px;
+    background-color: var(--color-neutral-dark-gray-blue);
+    color: var(--color-neutral-white);
+    font-size: 20px;;
+}
