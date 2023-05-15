@@ -10,11 +10,11 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Table of contents
 
-- [The challenge](#the-challenge) ✅
-- [Built with](#built-with) ✅
+- [The challenge](#the-challenge)
+- [Built with](#built-with)
 - [Links](#links)
-- [What I learned](#what-i-learned) ✅
-- [Useful resources](#useful-resources) ✅
+- [What I learned](#what-i-learned)
+- [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -47,8 +47,7 @@ Users should be able to :
 
 ## 🔗 Links
 
-- Solution : [Add solution URL here](https://your-solution-url.com)
-- Live Site : [Add live site URL here](https://your-live-site-url.com)
+- Live Site : [Results summary](karibbean-creative-results-summary.netlify.app)
 
 
 
@@ -70,9 +69,9 @@ Users should be able to :
 
 ## 😎 Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- LinkedIn - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Karibbean Creative](https://karibbeancreative.xyz/)
+- Github - [@karibbeanCreative](https://github.com/karibbeanCreative)
+
 
 Don't hesitate to tell me what you think and connect if you want.
 
