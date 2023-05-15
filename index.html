@@ -4,21 +4,23 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Results summary | Component</title>
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
         <meta name="author" content="Dope Karibbean">
         <meta name="description" content="Results Summary Frontend Challenge">
         <link rel="stylesheet" href="assets/css/styles.css">
     </head>
 
-    <body class="">
+    <body>
         <main class="component">
 
             <!--Violet card part-->
             <section class="score-part">
-                <h3 class="">Your Result</h3>
+                <h3 class="info">Your Result</h3>
                 <article class="circle-gradient">
-                    <h1 class="result">76</h1>
-                    <p class="on-hundred-light">of 100</p>
+                    <div class="center-div">
+                        <h1 class="result">76</h1>
+                        <p class="on-hundred-light">of 100</p>
+                    </div>
                 </article>
                 <h2 class="">Great</h2>
                 <p class="">You scored higher than 65% of the people who have taken these tests.</p>
@@ -28,48 +30,50 @@
             <section class="summary-part">
                 <h3 class="summary-title">Summary</h3>
 
-                <!--Reaction-->
-                <article class="group-info group-red">
-                    <img src="assets/images/icon-reaction.svg" alt="Icon Reaction">
-                    <h4 class="group-title red">Reaction</h4>
-                    <p class="score">
-                        <span class="weight">80</span>
-                        <span class="on-hundred"> / 100</span>
-                    </p>
-                </article>
+                <div class="rows">
+                    <!--Reaction-->
+                    <article class="row group-red">
+                        <img src="assets/images/icon-reaction.svg" alt="Icon Reaction">
+                        <h4 class="group-title red">Reaction</h4>
+                        <p class="score">
+                            <span class="weight">80</span>
+                            <span class="on-hundred"> / 100</span>
+                        </p>
+                    </article>
 
-                <!--Memory-->
-                <article class="group-info group-orange">
-                    <img src="assets/images/icon-memory.svg" alt="Icon Memory">
-                    <h4 class="group-title orange">Memory</h4>
-                    <p class="score">
-                        <span class="weight">92</span>
-                        <span class="on-hundred"> / 100</span>
-                    </p>
-                </article>
+                    <!--Memory-->
+                    <article class="row group-orange">
+                        <img src="assets/images/icon-memory.svg" alt="Icon Memory">
+                        <h4 class="group-title orange">Memory</h4>
+                        <p class="score">
+                            <span class="weight">92</span>
+                            <span class="on-hundred"> / 100</span>
+                        </p>
+                    </article>
 
-                <!--Verbal-->
-                <article class="group-info group-teal">
-                    <img src="assets/images/icon-verbal.svg" alt="Icon Verbal">
-                    <h4 class="group-title teal">Verbal</h4>
-                    <p class="score">
-                        <span class="weight">61</span>
-                        <span class="on-hundred"> / 100</span>
-                    </p>
-                </article>
-
-                <!--Visual-->
-                <article class="group-info group-blue">
-                    <img src="assets/images/icon-visual.svg" alt="Icon Visual">
-                    <h4 class="group-title blue">Visual</h4>
-                    <p class="score">
-                        <span class="weight">72</span>
-                        <span class="on-hundred"> / 100</span>
-                    </p>
-                </article>
+                    <!--Verbal-->
+                    <article class="row group-teal">
+                        <img src="assets/images/icon-verbal.svg" alt="Icon Verbal">
+                        <h4 class="group-title teal">Verbal</h4>
+                        <p class="score">
+                            <span class="weight">61</span>
+                            <span class="on-hundred"> / 100</span>
+                        </p>
+                    </article>
+    
+                    <!--Visual-->
+                    <article class="row group-blue">
+                        <img src="assets/images/icon-visual.svg" alt="Icon Visual">
+                        <h4 class="group-title blue">Visual</h4>
+                        <p class="score">
+                            <span class="weight">72</span>
+                            <span class="on-hundred"> / 100</span>
+                        </p>
+                    </article>
+                </div>
 
                 <!--Button-->
-                <button class="bg-gradient-to-b from-indigo-600 to-blue-700 text-slate-100 font-medium">Continue</button>
+                <button class="btn">Continue</button>
             </section>
         </main>
 
@@ -79,13 +83,3 @@
         </footer>
     </body>
 </html>
-
-
-
-<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-<!--
-    <style>
-        .attribution { font-size: 11px; text-align: center; }
-        .attribution a { color: hsl(228, 45%, 44%); }
-    </style>
---> 
